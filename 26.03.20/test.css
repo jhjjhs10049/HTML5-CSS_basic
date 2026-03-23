@@ -1,0 +1,15 @@
+.basic {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+}
+
+.word {
+  font-size: 20px;
+}
