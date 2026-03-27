@@ -1,0 +1,61 @@
+.background {
+  background-color: skyblue;
+  padding: 20px;
+}
+
+.span {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.image_link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.image {
+  width: 500px;
+  height: auto;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.elvis {
+  width: 150px;
+  height: 200px;
+}
+
+.kakao {
+  width: 200px;
+  height: 200px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+}
+
+.dl {
+    margin-left: 20px;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.list_dt {
+    width: 400px;
+    margin: 0 auto;
+
+}
+
+.list_dt dt {
+    margin-top: 16px;
+}
+
+
