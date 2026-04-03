@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="/26.04.03/table.css" />
+  </head>
+  <body>
+    <h1 class="text_center">표 만들기</h1>
+    <p class="text_name">2605030 정한준</p>
+    <hr />
+    <table>
+      <caption>
+        1학기 성적
+      </caption>
+      <thead>
+        <tr>
+          <th>이름</th>
+          <th>HTML</th>
+          <th>CSS</th>
+          <th>JavaScript</th>
+          <th>총점</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>김후불</td>
+          <td>100</td>
+          <td>95</td>
+          <td>90</td>
+          <td>285</td>
+        </tr>
+        <tr>
+          <td>정한준</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+          <td>300</td>
+        </tr>
+        <tr>
+          <td>이순신</td>
+          <td>50</td>
+          <td>80</td>
+          <td>100</td>
+          <td>230</td>
+        </tr>
+        <tr>
+          <td rowspan="2">응용 합치기!</td>
+          <td></td>
+          <td colspan="2">병합된 칸 colsapn</td>
+          <td rowspan="2">세로 합치기는 같은(ex:tbody)<br />구역에</td>
+        </tr>
+        <tr>
+          
+          <td colspan="3">병합된 칸 colsapn</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>합</th>
+          <th>250</th>
+          <th>275</th>
+          <th>290</th>
+          <th></th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
