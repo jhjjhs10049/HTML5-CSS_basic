@@ -1,0 +1,60 @@
+lms 공지사항에 이번주안에 시험 문제 몇개인지 공지
+
+<title> title=""툴팁
+ 
+<br>
+<hr>
+
+<pre> 입력한
+그대로 </pre>
+
+블럭태그
+<p>
+<h1>~<h6> </h1>
+
+<img src="" alt="">
+<table>
+	<caption>
+	<thead>
+	<tbody>
+	<tfoot>
+
+colspan=""
+lowspan=""
+<video src="">
+<audio src="">
+	<a href="#~~"> 앵커로 책갈피 기능
+	<id="~~">
+
+<iframe>
+src=""
+srcdoc=""
+
+표들 등등
+ol
+ul
+li
+dl
+	dt
+		dd
+
+
+&copy; 이거 보이는거임 그냥..©
+&wbsp;
+&lt;	<
+&gt;	>
+
+meta태그 
+
+28p
+웹의 기본 목적과 구성
+29p
+인터넷 웹은 다르다
+팀버너스리 www
+웹문서와 전자문서의 차이
+웹의 성공-만들기 쉬움, 효율적임, 클라이언트와 서버의 작업 분담
+웹페이지 구성 3요소-html, css, js
+왜 html5를 사용하는가-기술의 혼재 비표준화때매
+
+
+
