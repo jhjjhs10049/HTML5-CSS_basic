@@ -1,0 +1,25 @@
+h3,
+li {
+  color: red;
+}
+.warning {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+body.main {
+  background: aliceblue;
+}
+#list {
+  background-color: pink;
+}
+.line {
+  text-decoration: underline;
+}
+.color{
+    color: green;
+}
+.weight{
+  font-weight: bold;
+}
+

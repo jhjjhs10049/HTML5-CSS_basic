@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="" />
+  </head>
+  <form>
+    <h3>로그인 폼</h3>
+    <hr />
+    <form name="fo" method="get">
+      사용자 ID : <input type="text" size="15" value="" /><br />
+      비밀번호 : <input type="password" size="15" value="" />
+      <input type="submit" value="완료" /><br />
+      자소서 :
+      <textarea
+        cols="20"
+        rows="5"
+        placeholder="소프트웨어융합과, 학번, 이름 적어주세요"
+      ></textarea>
+    </form>
+    <hr />
+    <form>
+      가고 싶은 나라 : <input type="text" list="countries" />
+      <datalist id="countries">
+        <option value="일본"></option>
+        <option value="일본"></option>
+        <option value="일본"></option>
+        <option value="일본"></option>
+        <option value="일본"></option>
+      </datalist>
+      <input type="button" value="input" />
+      <button>button</button>
+      <!-- button 태그는 submit이 기본 -->
+      <button type="reset">reset</button>
+      <br />
+      가고 싶은 도시 :
+      <select list="cityes">
+        <br />
+        <option value="null">-</option>
+        <option value="도쿄">도쿄</option>
+        <option value="오사카">오사카</option>
+        <option value="후쿠오카">후쿠오카</option>
+        <option value="삿포로">삿포로</option>
+        <option value="토마코마이" selected>토마코마이</option>
+      </select>
+    </form>
+    <hr />
+    <form>
+      오늘저녁의 메뉴를 선택하세요<br /><br />
+      <input type="checkbox" value="1" /> 회
+      <input type="checkbox" value="2" /> 치킨
+      <input type="checkbox" value="3" /> 바나나
+      <input type="checkbox" value="4" checked /> 햄부기햄북 햄북어 햄북스딱스
+      함부르크햄부가우가 햄비기햄부거 햄부가티햄부기온앤 온<br />
+      <br />
+
+      내일저녁의 메뉴를 선택하세요<br /><br />
+      <label><input type="radio" name="dinner" value="1" /> 회</label>
+      <label><input type="radio" name="dinner" value="2" /> 치킨</label>
+      <label><input type="radio" name="dinner" value="3" /> 바나나</label>
+      <label
+        ><input type="radio" name="dinner" value="4" checked /> 햄부기햄북
+        햄북어 햄북스딱스 함부르크햄부가우가 햄비기햄부거 햄부가티햄부기온앤
+        온</label
+      >
+      <br />
+
+      <label for="dinner"
+        ><input type="radio" value="5" name="b" id="dinner" />라벨</label
+      >
+    </form>
+    <hr />
+    <form>
+      그레이 색이야<br />
+      색 선택 :
+      <input
+        type="color"
+        value="#000000"
+        onchange="document.body.style.color = this.value"
+      />
+    </form>
+    <hr />
+    <form>
+    시간은 금이라구 친구! <br>
+    month : <input type="month" value="2026-05" /><br />
+    week : <input type="week" /><br />
+    date : <input type="date" /><br />
+    time : <input type="time" /><br />
+    </form>
+    <hr>  
+    <form>
+        숫자 올리기<input type="number" min="0" max="10" stack="2">
+        <br>
+        온도 : 0&deg <input type="range" min="0" max="100" list="hanjun">100&deg
+        <datalist id="hanjun">
+        <option value="10" label="너무작다!"></option>
+        <option value="50" label="보통"></option>
+        <option value="90" label="어디까지올라가는거에요?"></option>
+    </datalist>
+    </form>
+  </body>
+</html>

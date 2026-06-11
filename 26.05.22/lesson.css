@@ -1,0 +1,24 @@
+body {
+  background-color: mistyrose;
+  font-family: Arial, sans-serif;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+h3 {
+  color: purple;
+  text-align: center;
+}
+hr {
+  border: 5px solid yellowgreen;
+}
+p {
+  text-align: center;
+}
+span {
+  color: blue;
+  font-size: 20px;
+}
+#span2 {
+  color: red;
+  font-size: 20px;
+}

@@ -1,0 +1,17 @@
+ul strong {
+  color: dodgerblue;
+}
+ul:hover {
+  color: red;
+  background-color: lightgrey;
+}
+
+div strong {
+  background-color: yellow;
+}
+input:hover {
+  background-color: lightgrey;
+}
+input:not(:placeholder-shown) {
+  background-color: lightgrey;
+}

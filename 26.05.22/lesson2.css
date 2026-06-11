@@ -1,0 +1,31 @@
+html,
+body {
+  background-color: linen;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+h3 {
+  color: green;
+  text-align: center;
+}
+hr {
+  border: 5px solid yellowgreen;
+}
+p {
+  color: red;
+  font-size: 18px;
+  text-align: center;
+}
+.blue {
+  color: blue;
+}
+.pink {
+  color: rgb(201, 99, 116);
+  font-size: 25px;
+  font-weight: bold;
+}
