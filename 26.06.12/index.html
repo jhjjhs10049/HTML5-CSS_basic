@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>학기말 작품 - 배웠던 것들</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1>1학년 1학기 - 배웠던 것들</h1>
+        <section id="table-header">
+            <div class="student-info">
+                <span class="info-item"><span class="label">과:</span><span class="value">소프트웨어융합과</span></span>
+                <span class="info-item"><span class="label">반:</span><span class="value">1</span></span>
+                <span class="info-item"><span class="label">학번:</span><span class="value">2605030</span></span>
+                <span class="info-item"><span class="label">이름:</span><span class="value">정한준</span></span>
+            </div>
+        </section>
+    </header>
+
+    <div class="container">
+
+        <nav class="sidebar">
+            <h2>목차</h2>
+            <ul>
+                <li><a href="#html">HTML 기본 구조</a></li>
+                <li><a href="#text">텍스트 & 제목</a></li>
+                <li><a href="#lists">리스트</a></li>
+                <li><a href="#images">이미지 & 링크</a></li>
+                <li><a href="#table">테이블</a></li>
+                <li><a href="#iframe">iframe</a></li>
+                <li><a href="#css">CSS 기초</a></li>
+                <li><a href="#layout">레이아웃 & 박스 모델</a></li>
+            </ul>
+        </nav>
+
+        <main class="content">
+            <section id="html">
+                <h3>HTML 기본 구조</h3>
+                <p>doctype, html, head, body, meta, 외부 CSS 연결(link) 등</p>
+                <pre>&lt;!doctype html&gt; ... &lt;link rel="stylesheet" href="styles.css"&gt;</pre>
+            </section>
+
+            <section id="text">
+                <h3>텍스트 & 제목</h3>
+                <p>h1~h6, p, span, strong, em, br, hr 등</p>
+            </section>
+
+            <section id="lists">
+                <h3>리스트</h3>
+                <p>순서있는 리스트(ol), 순서없는 리스트(ul), 정의 리스트(dl)</p>
+            </section>
+
+            <section id="images">
+                <h3>이미지 & 링크</h3>
+                <p>이미지 삽입, alt, 크기, 이미지에 링크 연결하기</p>
+                <div class="gallery">
+                    <div class="gallery-petercho">
+                        <a href="https://github.com/peterchokr" target="_blank">
+                            <img src="/26.03.27/image/prof_cho.png" alt="교수님" />
+                        </a>
+                    </div>
+                    <a href="https://en.wikipedia.org/wiki/Elvis_Presley" target="_blank">
+                        <img src="/26.03.27/image/elvis.webp" alt="Elvis" />
+                    </a>
+                    <a href="https://www.kakao.com" target="_blank">
+                        <img src="https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/service/6ffc1d92019900001.png"
+                            alt="Kakao" />
+                    </a>
+                </div>
+                </br> <a>순서대로 파이썬 조정현 교수님 github, 알베스, 카카오 (누르면 페이지로 이동합니다.)</a>
+            </section>
+
+            <section id="table">
+                <h3>테이블</h3>
+                <p>table, thead, tbody, tfoot, caption, th, td, rowspan/colspan</p>
+                <table>
+                    <caption>표 만들어보기<br>
+                        <small class="table-note">각각의 난이도</small>
+                    </caption>
+                    <!--caption 아래엔 small 태그 -->
+
+                    <thead>
+                        <tr>
+                            <th>HTML</th>
+                            <th>CSS</th>
+                            <th>JS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>양이 엄청나게 많음</td>
+                            <td>양이 엄~청나게 많음</td>
+                            <td>다음기회에..</td>
+                        </tr>
+                        <tr class="summary-row">
+                            <td colspan="1">종합평:</td>
+                            <td colspan="2">양이 많고 어렵습니다.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="iframe">
+                <h3>iframe</h3>
+                <p>다른 HTML을 문서 안에 삽입 (src로 경로 지정)</p>
+                <iframe src="iframe1.html" width="640" height="360" title="예시 iframe"></iframe>
+            </section>
+
+            <section id="css">
+                <h3>CSS 기초</h3>
+                <p>선택자(태그, 클래스, ID), 색상, 폰트, text-align, text-decoration 등</p>
+            </section>
+
+            <section id="layout">
+                <h3>레이아웃 & 박스 모델</h3>
+                <p>div로 구역 나누기, margin, padding, border, display:flex 등</p>
+                <div class="box-demo-simple">
+                    <div class="box-margin">
+                        <div class="box-border">
+                            <div class="box-padding">
+                                <div class="box-content">content</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div>margin 빨간색</div>
+                <div>border 주황색</div>
+                <div>padding 초록색</div>
+            </section>
+
+            <footer>
+                <p>최대한 배웠던것들 위주로 정리했습니다.</p>
+                <p>한학기동안 고생많으셨습니다.</p>
+            </footer>
+        </main>
+    </div>
+</body>
+
+</html>

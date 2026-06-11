@@ -1,0 +1,225 @@
+/* 기본 */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 20px;
+}
+
+/* 페이지 제목 (헤더) 스타일 */
+header h1 {
+    text-align: center;
+    color: #3a3a8a;
+}
+
+/* 본문 섹션 간 여백 */
+.content section {
+    margin-bottom: 28px
+}
+
+
+/* 본문 소제목 색상 */
+.content h3 {
+    color: #2d6a9f
+}
+
+/* 학생 정보 (헤더 우측) */
+.student-info {
+    text-align: right;
+    /* 텍스트를 오른쪽으로 정렬 */
+    font-size: 14px;
+    /* 글자 크기를 14px로 설정 */
+    color: #222;
+    /* 글자색을 어두운 회색(#222)으로 지정 */
+    margin-top: 6px;
+    /* 위쪽과의 간격을 6px 띄우기. */
+    margin-bottom: 18px;
+    /* 아래쪽(테이블 등)과의 간격을 18px 띄우기 */
+    display: flex;
+    /* 내부 항목들을 가로로 배치하는 레이아웃을 사용 */
+    gap: 12px;
+    /* 각 항목들 사이에 12px 간격 */
+    justify-content: flex-end;
+    /* 가로 방향으로 오른쪽 끝(우측)으로 정렬 */
+}
+
+/* 학생 정보 항목(이름, 학번 등)을 가로로 배치하고 간격 유지 */
+.student-info .info-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* 학생 정보 항목의 레이블과 값 스타일 */
+.student-info .label {
+    font-weight: 600;
+}
+
+/* 학생 정보 항목의 값 스타일: 밑줄과 패딩으로 구분 */
+.student-info .value {
+    display: inline-block;
+    min-width: 90px;
+    border-bottom: 1px solid #000;
+    padding: 2px 6px;
+    text-align: center;
+
+}
+
+
+/* 페이지 부제목 (subtitle) */
+.subtitle {
+    text-align: center;
+    color: #666;
+    font-size: 14px
+}
+
+
+/* 레이아웃 컨테이너: 사이드바와 본문을 가로로 배치 (고정 너비, 가운데 정렬) */
+.container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    max-width: 1000px;
+    /* 전체 레이아웃 고정 너비 */
+    margin: 0 auto;
+    /* 화면 가운데 정렬 */
+    flex-wrap: nowrap;
+    /* 항목이 줄 바꿈되지 않도록 고정 */
+}
+
+
+/* 사이드바(목차) 너비와 기본 스타일 */
+.sidebar {
+    width: 220px;
+}
+
+
+/* 사이드바 목록 기본 스타일(불릿 제거, 들여쓰기 없음) */
+.sidebar ul {
+    list-style: none;
+    padding-left: 0
+}
+
+
+/* 사이드바 항목 간격 */
+.sidebar li {
+    margin: 8px 0
+}
+
+
+/* 사이드바 링크 색과 장식 제거 */
+.sidebar a {
+    color: #1a3d7c;
+    text-decoration: none
+}
+
+
+/* 링크에 마우스 올리면 밑줄 표시 */
+.sidebar a:hover {
+    text-decoration: underline
+}
+
+
+/* 본문 콘텐츠 영역 (가변 너비, 패딩, 구분선) */
+.content {
+    flex: 1;
+    padding: 10px;
+    border-left: 1px solid #ddd
+}
+
+
+/* 이미지 갤러리: 가로 3개 배치, 첫 사진만 넓게 보이게 조정 */
+.gallery {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+    justify-content: space-between;
+    /* 세 이미지가 좌우로 꽉 차게 배치 */
+    align-items: center;
+}
+
+/* 기본 갤러리 이미지 크기 */
+.gallery img {
+    width: 140px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+/* 첫 사진은 더 넓게 표시 */
+.gallery>.gallery-petercho img {
+    width: 260px;
+}
+
+/* 표 기본 스타일(경계선 합치기 및 위쪽 여백) */
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+    width: 100%;
+    /* 본문 너비에 딱 맞게 표를 확장 */
+}
+
+
+/* 표 헤더/셀 스타일(테두리, 패딩, 가운데정렬) */
+th,
+td {
+    border: 1px solid #999;
+    padding: 8px 12px;
+    text-align: center
+}
+
+
+/* 표 캡션(제목) 스타일 */
+caption {
+    font-weight: 700;
+    margin-bottom: 8px
+}
+
+/* 콜스판 적용된 셀 스타일 */
+.summary-row {
+    background-color: #f0f0f0;
+    font-weight: 600;
+}
+
+/* 임베디드 iframe 경계선 스타일 */
+iframe {
+    border: 2px solid #ccc;
+    display: block;
+    margin: 10px auto;
+    /* 가운데 정렬 */
+    width: 640px;
+    /* 가로 크기 고정 */
+    height: 360px;
+    /* 세로 크기 고정 */
+    max-width: none;
+    /* 반응형 크기 제한 해제 */
+}
+
+/* 박스모델 (간단한 예제) */
+.box-demo-simple {
+    margin-top: 12px;
+    background: #fd1a1a;
+    /* 외부 배경을 넣어 마진 영역이 보이도록 함 */
+    padding: 10px;
+    /* 외부 패딩으로 마진이 드러남 */
+}
+
+.box-border {
+    border: 10px solid #f39c12;
+}
+
+.box-padding {
+    padding: 12px;
+    background: #65ffaa;
+}
+
+.box-content {
+    background: #fff;
+    padding: 6px 8px;
+    text-align: center;
+}
+
+/* 페이지 바닥(footer) 여백과 글자색 */
+footer {
+    margin-top: 200px;
+    color: #555
+}
